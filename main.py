@@ -118,6 +118,7 @@ async def nitro(ctx):
         os.remove("nitro.txt")
         print(f'{ctx.author} | {ctx.author.id} -> {prefix}nitro')
         await target.send("All nitro codes are **UNCHECKED**")
+        await target.send("Coded by Detective Voke#9732")
         pass
 #whitelist
 @nitro.after_invoke
